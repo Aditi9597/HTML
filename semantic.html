@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Index Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external stylesheet if needed -->
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#navigation">Navigation</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Page</h2>
+            <p>This website is dedicated to exploring various themes and topics that interest me, ranging from technology to art and lifestyle.</p>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation Page</h2>
+            <ul>
+                <li><a href="C:\Users\sreed\Desktop\Aditi\HTML\timetable.html">TIME-TABLE FOR WINTER SEM 2024-25</a></li>
+                <li><a href="C:\Users\sreed\Desktop\Aditi\HTML\solar.html">SOLAR SYSTEM</a></li>
+                <li><a href="C:\Users\sreed\Desktop\Aditi\HTML\profile.html">PROFILE PAGE</a></li>
+                <li><a href="C:\Users\sreed\Desktop\Aditi\HTML\form.html">FORM</a></li>
+                <li><a href="C:\Users\sreed\Desktop\Aditi\HTML\profile2.HTML">PROFILE USING "div" and "span" tags</a></li>
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Blog Page</h2>
+            <article>
+                <h3>Exploring Nature</h3>
+                <figure>
+                    <img src="nature.jpg" alt="A beautiful landscape of mountains and trees">
+                    <figcaption>Nature at its finest.</figcaption>
+                </figure>
+                <p>Check out my latest photos from my hiking trip!</p>
+                <a href="video.html">Watch the Video</a>
+            </article>
+
+            <article>
+                <h3>Tech Trends</h3>
+                <figure>
+                    <img src="tech.jpg" alt="Latest technology gadgets">
+                    <figcaption>The latest gadgets in technology.</figcaption>
+                </figure>
+                <p>Read about the newest trends in the tech industry.</p>
+                <a href="https://www.technews.com">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p>&copy; 2025 My Web Page</p>
+    </footer>
+
+</body>
+</html>
